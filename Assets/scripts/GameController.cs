@@ -59,6 +59,8 @@ public class GameController : MonoBehaviour
 			{
 				restartText.text = "Press 'R' for Restart";
 				restart = true;
+				Debug.Log ("gameover works");
+				StopCoroutine (SpawnWaves ());
 				break;
 			}
 		}
@@ -79,5 +81,9 @@ public class GameController : MonoBehaviour
 	{
 		gameOverText.text = "Game Over!";
 		gameOver = true;
+		StopAllCoroutines ();
+		restartText.text = "Press 'R' for Restart";
+		restart = true;
+
 	}
 }

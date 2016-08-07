@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6D1805F6-B68B-3E42-64FA-39979D398A0C}") = "Spaceshooter-unity-5", "Assembly-CSharp.csproj", "{4FB3C43B-8FD2-30CB-737A-45D7535F8C5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB3C43B-8FD2-30CB-737A-45D7535F8C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB3C43B-8FD2-30CB-737A-45D7535F8C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB3C43B-8FD2-30CB-737A-45D7535F8C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB3C43B-8FD2-30CB-737A-45D7535F8C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
