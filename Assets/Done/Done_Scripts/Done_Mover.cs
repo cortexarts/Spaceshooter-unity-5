@@ -8,7 +8,7 @@ public class Done_Mover : MonoBehaviour
 
 	void Start ()
 	{
-		startY = GetComponent<Rigidbody>().position.y;
+        startY = GetComponent<Rigidbody>().position.y;
 		GetComponent<Rigidbody>().velocity = transform.forward * speed;
 	}
 	void Update() {
